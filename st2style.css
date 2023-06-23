@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: paleturquoise;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #222;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #aaa;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: paleturquoise;
+    padding: 20px;
+    text-align: center;
+  }

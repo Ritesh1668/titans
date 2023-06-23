@@ -1,0 +1,69 @@
+.containr{
+    text-align: center;
+    padding-top: 10px ;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    color: rgb(64, 124, 124);
+    background-color: paleturquoise;
+}
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Center the form container */
+  .container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  /* Style the form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the form input fields */
+  input[type="text"],
+  input[type="checkbox"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the link to faculty portal */
+  .btn {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+    margin-top: 15px;
+  }
+  
+  /* Clear floats after form elements */
+  form::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
